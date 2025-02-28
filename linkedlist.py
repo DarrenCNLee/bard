@@ -58,7 +58,6 @@ class LinkedList:
                     or (curr.freq == temp.freq
                         and curr.name > temp.name)):
                     self.swap(curr, temp)
-                    # curr, temp = temp, curr
 
                 curr = temp
                 temp = temp.next
